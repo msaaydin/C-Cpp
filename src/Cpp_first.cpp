@@ -23,7 +23,13 @@ class Time {// Sýnýf tanýmý
 	}
 };
 
-
+class Point {
+	public:
+	float GetX() { return x; }; // get x coordinate
+	void SetX(int pX) { this->x =pX; }; // set x coordinate
+	private:
+	float x;
+};
 int main() {
 	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
 	return 0;
