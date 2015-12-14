@@ -16,10 +16,6 @@ struct Personel{
 #include <stdlib.h>
 
 int main(void) {
-	struct Personel p[5];
-
-	p[0].yas = 12;
-	printf("%d\n",p[0].yas);
 	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
 	return EXIT_SUCCESS;
 }

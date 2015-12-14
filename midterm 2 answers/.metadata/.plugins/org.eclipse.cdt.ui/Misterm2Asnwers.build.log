@@ -1,15 +1,1 @@
-02:22:47 **** Build of configuration Debug for project Misterm2Asnwers ****
-make all 
-'Building file: ../src/Misterm2Asnwers.c'
-'Invoking: Cross GCC Compiler'
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Misterm2Asnwers.d" -MT"src/Misterm2Asnwers.o" -o "src/Misterm2Asnwers.o" "../src/Misterm2Asnwers.c"
-'Finished building: ../src/Misterm2Asnwers.c'
-' '
-'Building target: Misterm2Asnwers'
-'Invoking: Cross GCC Linker'
-gcc  -o "Misterm2Asnwers"  ./src/Misterm2Asnwers.o   
-'Finished building target: Misterm2Asnwers'
-' '
-
-02:23:06 Build Finished (took 18s.467ms)
-
+Info: Nothing to build for Misterm2Asnwers
