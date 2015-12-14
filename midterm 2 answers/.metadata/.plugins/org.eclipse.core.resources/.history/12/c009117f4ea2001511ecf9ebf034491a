@@ -1,0 +1,36 @@
+/*
+ ============================================================================
+ Name        : Misterm2Asnwers.c
+ Author      : M.A.
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Midterm2 Questions, Ansi-style
+ ============================================================================
+ */
+struct Personel{
+   char *ad_soyad;
+   int yas;
+   char cinsiyet;
+};
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	struct Personel p[5];
+
+	p[0].yas = 12;
+	printf("%d\n",p[0].yas);
+	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
+	char ch1[] ="marmara üniversitesi";
+	char ch2[] ="mef ";
+	char *ch3 = ptr(ch1,ch2);
+	return EXIT_SUCCESS;
+}
+
+char *ptr(char *d1,char *d2){
+
+	char *dp = &d1[0], *sp = &d2[0];
+		while(*sp != '\0')
+			*dp++ = *sp++;
+		*dp = '\0';
+}

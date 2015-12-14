@@ -1,5 +1,91 @@
-02:35:55 **** Incremental Build of configuration Debug for project Misterm2Asnwers ****
+13:14:42 **** Incremental Build of configuration Debug for project Misterm2Asnwers ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Misterm2Asnwers.o" "..\\src\\Misterm2Asnwers.c" 
-gcc -o Misterm2Asnwers "src\\Misterm2Asnwers.o" 
-Info: Nothing to build for Misterm2Asnwers
+..\src\Misterm2Asnwers.c: In function 'main':
+..\src\Misterm2Asnwers.c:41:24: warning: excess elements in scalar initializer
+      int array1 = {134,52,653,344,454,675,99,232};
+                        ^
+..\src\Misterm2Asnwers.c:41:24: note: (near initialization for 'array1')
+..\src\Misterm2Asnwers.c:41:27: warning: excess elements in scalar initializer
+      int array1 = {134,52,653,344,454,675,99,232};
+                           ^
+..\src\Misterm2Asnwers.c:41:27: note: (near initialization for 'array1')
+..\src\Misterm2Asnwers.c:41:31: warning: excess elements in scalar initializer
+      int array1 = {134,52,653,344,454,675,99,232};
+                               ^
+..\src\Misterm2Asnwers.c:41:31: note: (near initialization for 'array1')
+..\src\Misterm2Asnwers.c:41:35: warning: excess elements in scalar initializer
+      int array1 = {134,52,653,344,454,675,99,232};
+                                   ^
+..\src\Misterm2Asnwers.c:41:35: note: (near initialization for 'array1')
+..\src\Misterm2Asnwers.c:41:39: warning: excess elements in scalar initializer
+      int array1 = {134,52,653,344,454,675,99,232};
+                                       ^
+..\src\Misterm2Asnwers.c:41:39: note: (near initialization for 'array1')
+..\src\Misterm2Asnwers.c:41:43: warning: excess elements in scalar initializer
+      int array1 = {134,52,653,344,454,675,99,232};
+                                           ^
+..\src\Misterm2Asnwers.c:41:43: note: (near initialization for 'array1')
+..\src\Misterm2Asnwers.c:41:46: warning: excess elements in scalar initializer
+      int array1 = {134,52,653,344,454,675,99,232};
+                                              ^
+..\src\Misterm2Asnwers.c:41:46: note: (near initialization for 'array1')
+..\src\Misterm2Asnwers.c:42:23: warning: excess elements in scalar initializer
+      int array2 = {23,34,65,76,87,23,8,2};
+                       ^
+..\src\Misterm2Asnwers.c:42:23: note: (near initialization for 'array2')
+..\src\Misterm2Asnwers.c:42:26: warning: excess elements in scalar initializer
+      int array2 = {23,34,65,76,87,23,8,2};
+                          ^
+..\src\Misterm2Asnwers.c:42:26: note: (near initialization for 'array2')
+..\src\Misterm2Asnwers.c:42:29: warning: excess elements in scalar initializer
+      int array2 = {23,34,65,76,87,23,8,2};
+                             ^
+..\src\Misterm2Asnwers.c:42:29: note: (near initialization for 'array2')
+..\src\Misterm2Asnwers.c:42:32: warning: excess elements in scalar initializer
+      int array2 = {23,34,65,76,87,23,8,2};
+                                ^
+..\src\Misterm2Asnwers.c:42:32: note: (near initialization for 'array2')
+..\src\Misterm2Asnwers.c:42:35: warning: excess elements in scalar initializer
+      int array2 = {23,34,65,76,87,23,8,2};
+                                   ^
+..\src\Misterm2Asnwers.c:42:35: note: (near initialization for 'array2')
+..\src\Misterm2Asnwers.c:42:38: warning: excess elements in scalar initializer
+      int array2 = {23,34,65,76,87,23,8,2};
+                                      ^
+..\src\Misterm2Asnwers.c:42:38: note: (near initialization for 'array2')
+..\src\Misterm2Asnwers.c:42:40: warning: excess elements in scalar initializer
+      int array2 = {23,34,65,76,87,23,8,2};
+                                        ^
+..\src\Misterm2Asnwers.c:42:40: note: (near initialization for 'array2')
+..\src\Misterm2Asnwers.c:44:3: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'int'
+   int *ip2 = &array2[7];
+   ^
+..\src\Misterm2Asnwers.c:44:21: error: subscripted value is neither array nor pointer nor vector
+   int *ip2 = &array2[7];
+                     ^
+..\src\Misterm2Asnwers.c:45:20: error: subscripted value is neither array nor pointer nor vector
+   int *ep = &array1[7];
+                    ^
+..\src\Misterm2Asnwers.c:46:9: error: 'ip1' undeclared (first use in this function)
+     for(ip1 = &array1[0]; ip1 < ep; ip1++)
+         ^
+..\src\Misterm2Asnwers.c:46:9: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Misterm2Asnwers.c:46:22: error: subscripted value is neither array nor pointer nor vector
+     for(ip1 = &array1[0]; ip1 < ep; ip1++)
+                      ^
+..\src\Misterm2Asnwers.c:48:9: error: redeclaration of 'k' with no linkage
+     int k;
+         ^
+..\src\Misterm2Asnwers.c:36:6: note: previous declaration of 'k' was here
+  int k;
+      ^
+..\src\Misterm2Asnwers.c:50:33: error: subscripted value is neither array nor pointer nor vector
+             printf("%d\n",array2[k]);
+                                 ^
+..\src\Misterm2Asnwers.c:42:10: warning: variable 'array2' set but not used [-Wunused-but-set-variable]
+      int array2 = {23,34,65,76,87,23,8,2};
+          ^
+..\src\Misterm2Asnwers.c:41:10: warning: variable 'array1' set but not used [-Wunused-but-set-variable]
+      int array1 = {134,52,653,344,454,675,99,232};
+          ^
