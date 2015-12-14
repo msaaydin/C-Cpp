@@ -11,12 +11,65 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+int const Personelsize = 5;
 //soru2:
  struct Student{
    char *ad_soyad;
    int numara;
    int notlar[5];
 };
+//soru 3:
+struct Personel{
+ char *ad_soyad;
+ char cinsiyet;
+ int yas;
+};
+int *ortalamaYas(struct Personel p[]){
+      static int ort[2] = {0,0};
+
+    int m = 0; int w = 0; int i;
+    for(i = 0; i < Personelsize; i++){
+        if((p[i].cinsiyet == 'E') ||(p[i].cinsiyet == 'e')){
+           m++;
+           ort[0] +=p[i].yas;
+        }
+        if((p[i].cinsiyet == 'K') ||(p[i].cinsiyet == 'k')){
+           w++;
+           ort[1] +=p[i].yas;
+        }
+    }
+   ort[0] /=m;
+   ort[1] /=w;
+   return ort;
+}
+//soru 3:
+int main(void){
+
+	struct Personel pp[Personelsize];
+    pp[0].ad_soyad = "ali veli";
+    pp[1].ad_soyad = "þebnem";
+    pp[2].ad_soyad = "mehmet durmuþ";
+    pp[3].ad_soyad = "günnaz";
+    pp[4].ad_soyad = "aliye";
+    pp[0].cinsiyet = 'E';
+    pp[1].cinsiyet = 'K';
+    pp[2].cinsiyet = 'E';
+    pp[3].cinsiyet = 'K';
+    pp[4].cinsiyet = 'K';
+
+    int i;
+    for (i = 0; i < 5; i++){
+       pp[i].yas = rand() % 70 + 1;
+       printf("%d indexin yas degeri..:%d cinsiyet = %c\n",i,pp[i].yas,pp[i].cinsiyet);
+    }
+    int *yas_ort;
+    yas_ort = ortalamaYas(pp);
+    printf("Erkeklerin yas ortalamasý...:%d\n",yas_ort[0]);
+    printf("Kadýnlarýn yas ortalamasý...:%d\n",yas_ort[1]);
+
+   return 0;
+}
+
 int biggestStudentId(struct Student s[]){
 
 	 int average[] = {0,0,0,0,0};
@@ -41,7 +94,7 @@ int biggestStudentId(struct Student s[]){
    return s[indx].numara;
 }
 //soru 2:
-int main(void) {
+/*int main(void) {
 	srand ( time(NULL) );
 	struct Student ss[5];
     ss[0].ad_soyad = "musa aydýn";
@@ -77,7 +130,7 @@ int main(void) {
     }
 
   return 0;
-}
+}*/
 ////soru 7:
 //output:
 //Fatih

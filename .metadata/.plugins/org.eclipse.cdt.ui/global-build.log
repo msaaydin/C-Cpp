@@ -1,4 +1,4 @@
-19:28:30 **** Incremental Build of configuration Debug for project Midterm2Ans_ ****
+00:14:37 **** Incremental Build of configuration Debug for project Midterm2Ans_ ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Midterm2Ans_.o" "..\\src\\Midterm2Ans_.c" 
 gcc -o Midterm2Ans_.exe "src\\Midterm2Ans_.o" 
