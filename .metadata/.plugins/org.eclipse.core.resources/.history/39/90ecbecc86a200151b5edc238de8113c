@@ -4,7 +4,7 @@
  Author      : M.A.
  Version     :
  Copyright   : Your copyright notice
- Description : Midterm 2 all questions answers
+ Description : Hello World in C, Ansi-style
  ============================================================================
  */
 
@@ -19,9 +19,9 @@
 };
 int biggestStudentId(struct Student s[]){
 
-	 int average[] = {0,0,0,0,0};
-     int i,j;
-     printf("fonksiyon calisti\n");
+	  int average[] = {0,0,0,0,0};
+      int i,j;
+      printf("fonksiyon calisti\n");
      printf("/-----------------------------/\n");
      for (j = 0; j < 5; j++){
        for (i = 0; i < 5; i++){
@@ -31,14 +31,16 @@ int biggestStudentId(struct Student s[]){
        printf("%d indexli ogrencinin ortalamasi...:%d\n",j,average[j]);
      }
      int max = average[0];
+     average[2] = 32;
      int indx = 0;
      for(i = 1; i < 5; i++){
         if (average[i] > max){
             max = average[i];
             indx  = i;
         }
+
      }
-   return s[indx].numara;
+return s[indx].numara;
 }
 //soru 2:
 int main(void) {
@@ -66,6 +68,7 @@ int main(void) {
 
         	   printf("%d - ",ss[j].notlar[i]);
            }
+
            printf("\n");
     }
     for (i = 0; i <5; i++){
@@ -74,7 +77,9 @@ int main(void) {
     		printf("Ortalamasi en yüksek olan ogrencinin numarasý...:%d\n",biggestStudentId(ss));
     		break;
     	}
+
     }
+   //printf("Ortalamasi en yüksek olan ogrencinin numarasý...:%d\n",biggestStudentId(ss));
 
   return 0;
 }

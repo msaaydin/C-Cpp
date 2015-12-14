@@ -66,6 +66,7 @@ int main(void) {
 
         	   printf("%d - ",ss[j].notlar[i]);
            }
+
            printf("\n");
     }
     for (i = 0; i <5; i++){
@@ -74,7 +75,9 @@ int main(void) {
     		printf("Ortalamasi en yüksek olan ogrencinin numarasý...:%d\n",biggestStudentId(ss));
     		break;
     	}
+
     }
+
 
   return 0;
 }
