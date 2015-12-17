@@ -1,0 +1,18 @@
+/*
+ * Deneme.cpp
+ *
+ *  Created on: 17 Ara 2015
+ *      Author: rivendell
+ */
+
+#include "Deneme.h"
+
+Deneme::Deneme() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Deneme::~Deneme() {
+	// TODO Auto-generated destructor stub
+}
+

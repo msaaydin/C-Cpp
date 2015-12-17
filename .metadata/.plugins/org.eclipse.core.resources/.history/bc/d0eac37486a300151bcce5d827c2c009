@@ -1,0 +1,41 @@
+/*
+ * TemplateStack.h
+ *
+ *  Created on: 16 Ara 2015
+ *      Author: rivendell
+ */
+
+#ifndef TEMPLATESTACK_H_
+#define TEMPLATESTACK_H_
+
+template<class T>
+class TemplateStack {
+public:
+	  TemplateStack(int size= 10);
+      void push(T i);
+      T pop();
+  private:
+      int top;
+      int size = 10;
+      T st[size] = new T[size];
+};
+
+template <class T>
+TemplateStack<T>::TemplateStack(int size)
+{
+       this->size = size;
+       top = -1;
+}
+
+template <class T>
+void TemplateStack<T>::push(T i)
+{
+	st[++top] = i;
+}
+
+template <class T>
+T TemplateStack<T>::pop()
+{
+	return st[top--];
+}
+#endif /* TEMPLATESTACK_H_ */

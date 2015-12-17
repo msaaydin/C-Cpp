@@ -1,0 +1,17 @@
+/*
+ * Tarih.h
+ *
+ *  Created on: 17 Ara 2015
+ *      Author: rivendell
+ */
+
+#ifndef TARIH_H_
+#define TARIH_H_
+
+class Tarih {
+public:
+	Tarih();
+	virtual ~Tarih();
+};
+
+#endif /* TARIH_H_ */

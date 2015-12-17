@@ -1,0 +1,17 @@
+/*
+ * Vakit.h
+ *
+ *  Created on: 17 Ara 2015
+ *      Author: rivendell
+ */
+
+#ifndef VAKIT_H_
+#define VAKIT_H_
+
+class Vakit {
+public:
+	Vakit();
+	virtual ~Vakit();
+};
+
+#endif /* VAKIT_H_ */

@@ -1,0 +1,15 @@
+//============================================================================
+// Name        : OperatorOverloading.cpp
+// Author      : M.A.
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Operator Overloading C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	return 0;
+}

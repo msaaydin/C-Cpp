@@ -1,0 +1,18 @@
+/*
+ * Personel.cpp
+ *
+ *  Created on: 15 Ara 2015
+ *      Author: rivendell
+ */
+
+#include "Personel.h"
+
+Personel::Personel() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Personel::~Personel() {
+	// TODO Auto-generated destructor stub
+}
+

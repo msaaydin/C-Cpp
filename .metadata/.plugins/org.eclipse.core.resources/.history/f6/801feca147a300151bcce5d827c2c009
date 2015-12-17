@@ -1,0 +1,21 @@
+/*
+ * ClassArrayConstructor.h
+ *
+ *  Created on: 15 Ara 2015
+ *      Author: rivendell
+ */
+
+#ifndef CLASSARRAYCONSTRUCTOR_H_
+#define CLASSARRAYCONSTRUCTOR_H_
+
+class ClassArrayConstructor {
+float real,img;
+public:
+	ClassArrayConstructor(float,float);
+
+};
+ClassArrayConstructor::ClassArrayConstructor(float d1, float d2 = 2){
+
+}
+
+#endif /* CLASSARRAYCONSTRUCTOR_H_ */

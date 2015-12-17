@@ -1,0 +1,21 @@
+/*
+ * Personel.h
+ *
+ *  Created on: 15 Ara 2015
+ *      Author: rivendell
+ */
+
+#ifndef PERSONEL_H_
+#define PERSONEL_H_
+#include <string>
+
+
+class Personel {
+public:
+    void setName(string s);
+
+
+
+};
+
+#endif /* PERSONEL_H_ */

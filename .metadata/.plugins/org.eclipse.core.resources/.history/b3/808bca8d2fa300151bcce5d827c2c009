@@ -1,0 +1,19 @@
+/*
+ * Personel.cpp
+ *
+ *  Created on: 15 Ara 2015
+ *      Author: rivendell
+ */
+
+#include "Personel.h"
+#include <string>
+class Personel{
+public:
+	void setName(char name);
+
+};
+
+Personel::~Personel() {
+
+}
+

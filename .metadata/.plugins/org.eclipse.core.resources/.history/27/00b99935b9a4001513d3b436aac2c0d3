@@ -1,0 +1,18 @@
+/*
+ * Tarih.cpp
+ *
+ *  Created on: 17 Ara 2015
+ *      Author: rivendell
+ */
+
+#include "Tarih.h"
+
+Tarih::Tarih() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Tarih::~Tarih() {
+	// TODO Auto-generated destructor stub
+}
+

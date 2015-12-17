@@ -1,0 +1,19 @@
+/*
+ * Deneme.h
+ *
+ *  Created on: 17 Ara 2015
+ *      Author: rivendell
+ */
+
+#ifndef DENEME_H_
+#define DENEME_H_
+
+class Deneme {
+public:
+	int a;
+	Deneme();
+	Deneme(int);
+	virtual ~Deneme();
+};
+
+#endif /* DENEME_H_ */

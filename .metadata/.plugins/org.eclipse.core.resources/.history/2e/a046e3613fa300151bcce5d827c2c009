@@ -1,0 +1,20 @@
+//============================================================================
+// Name        : Cpp_class.cpp
+// Author      : M.A.
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include "Personel.h"
+#include <string>
+
+using namespace std;
+
+int main() {
+	cout << "Cpp class example" << endl; // prints Cpp class example
+	string a = "musa aydýn";
+	cout<<a;
+	return 0;
+}
