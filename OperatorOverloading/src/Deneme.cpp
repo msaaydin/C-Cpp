@@ -23,3 +23,4 @@ Deneme::Deneme(int sayi){
 int Deneme::getA(){
 	return this->a;
 }
+

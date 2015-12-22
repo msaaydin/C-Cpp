@@ -12,6 +12,48 @@
 #include <stdlib.h>
 #include <time.h>
 int const Personelsize = 5;
+//soru 1:
+ struct Ogrenci{
+   char *ad_soyad;
+   int no;
+   int not;
+};
+ int main(){
+
+    FILE *fptr;
+    if( (fptr = fopen("dosya.txt", "a+")) == NULL ){
+    		printf("Dosya acilamadi");
+    }
+    srand ( time(NULL) );
+	struct Ogrenci s[5];
+    s[0].ad_soyad = "musa aydýn";
+    s[1].ad_soyad = "ali";
+    s[2].ad_soyad = " aydýn";
+    s[3].ad_soyad = "hasan";
+    s[4].ad_soyad = "veli";
+    s[0].no = 2343;
+    s[1].no = 787;
+    s[2].no = 27873;
+    s[3].no = 999099;
+    s[4].no = 456644;
+
+    int i,j;
+    for (j = 0; j < 5; j++){
+          s[j].not = rand() % 100 + 1;
+    }
+    for (i = 0; i < 5; i++){
+      fprintf(fptr,"%s %d %d \n",s[i].ad_soyad,s[i].no,s[i].not);
+    }
+    printf("dosyaya yazma iþlemi tamamlandý..\n");
+    struct Ogrenci s_okunan[5];
+    char *a;
+    int a1,a2;
+    for (i = 0; i < 5; i++){
+    	fscanf(fptr,"%s %d %d \n",s_okunan[i].ad_soyad,&s_okunan[i].no,&s_okunan[i].not);
+    }
+    fclose(fptr);
+	 return 0;
+ }
 //soru2:
  struct Student{
    char *ad_soyad;
@@ -43,7 +85,7 @@ int *ortalamaYas(struct Personel p[]){
    return ort;
 }
 //soru 3:
-int main(void){
+/*int main(void){
 
 	struct Personel pp[Personelsize];
     pp[0].ad_soyad = "ali veli";
@@ -68,7 +110,7 @@ int main(void){
     printf("Kadýnlarýn yas ortalamasý...:%d\n",yas_ort[1]);
 
    return 0;
-}
+}*/
 
 int biggestStudentId(struct Student s[]){
 

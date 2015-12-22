@@ -25,6 +25,7 @@ public:
 	friend ostream& operator<<(ostream& output, Personel& p );
 	bool operator>(const Personel& p);
 	int operator-(const Personel& p);
+	Personel& operator++();
 };
 
 Personel::Personel(){
@@ -46,5 +47,8 @@ bool Personel::operator>(const Personel& p){
 int Personel::operator -(const Personel& p){
 	return this->maas - p.maas;
 }
-
+Personel& Personel::operator++(){
+	++maas;
+	return *this;
+}
 #endif /* PERSONEL_H_ */

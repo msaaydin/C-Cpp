@@ -1,0 +1,15 @@
+//============================================================================
+// Name        : PassFuncAsArgument.cpp
+// Author      : M.A.
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	cout << "Func. Argument" << endl; // prints Func. Argument
+	return 0;
+}

@@ -21,6 +21,7 @@ int main() {
 	 cout<< p1<<endl;
      cout<<"objeler birbirinden çıkarılıyor sonuc..:"<<p1-p2<<endl;
 
+     cout<<"Personel maasi...:"<<++p1<<endl;
 	Tarih t(8, 10, 2010);
 		t = t + 21;
 		//t = t + 360;

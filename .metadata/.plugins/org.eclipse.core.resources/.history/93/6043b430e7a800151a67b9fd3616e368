@@ -1,0 +1,28 @@
+/*
+ * Deneme.cpp
+ *
+ *  Created on: 17 Ara 2015
+ *      Author: rivendell
+ */
+
+#include "Deneme.h"
+#include <iostream>
+using namespace std;
+Deneme::Deneme() {
+
+ cout<<"deneme class ýndan bir obje oluþtu..."<<endl;
+}
+
+Deneme::~Deneme() {
+	// TODO Auto-generated destructor stub
+}
+
+Deneme::Deneme(int sayi){
+	this->a = sayi;
+}
+int Deneme::getA(){
+	return this->a;
+}
+Deneme::operator ++(){
+
+}
