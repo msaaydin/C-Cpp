@@ -1,0 +1,55 @@
+//============================================================================
+// Name        : CppLab13.cpp
+// Author      : M.A.
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include "Araba.h"
+#include <windows.h>   //For Beep & Sleep functions
+#include<stdlib.h>  //For System Pause
+#include <string>
+using namespace std;
+
+template<typename T>
+T add(T s1, T s2){
+
+	  return s1 + s2;
+}
+template <class K, class T1>
+class Deneme{
+public:
+	K add2(K sa, K sa2){
+
+		return sa + sa2;
+
+	}
+
+};
+int main() {
+
+	    Araba a1;
+		a1.setHiz(50);
+		a1.hizlan(10);
+		a1.hizlan();
+		cout<<a1.getHiz()<<endl;
+		cout<<a1.sureHesapla(265);
+		cout<<endl;
+        string s1 = "musa";
+        string s2 = "aydýn";
+        int a11 = 234;
+        int a22 =8765;
+        double d1 = 23456.5567;
+        double d2 = 6543.45654;
+        cout<<"String toplam...:"<<add(s1,s2)<<endl;
+        cout<<"Int toplam...:"<<add(a11,a22)<<endl;
+        cout<<"Double toplam...:"<<add(d1,d2)<<endl;
+        Deneme <int> d;
+        cout<< "Int toplam"<<d.add2(a11,a22)<<endl;
+
+
+
+	return 0;
+}

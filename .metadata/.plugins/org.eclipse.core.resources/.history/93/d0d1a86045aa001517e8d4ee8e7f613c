@@ -1,0 +1,52 @@
+//============================================================================
+// Name        : CppLab13.cpp
+// Author      : M.A.
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include "Araba.h"
+#include <windows.h>   //For Beep & Sleep functions
+#include<stdlib.h>  //For System Pause
+
+using namespace std;
+
+int main() {
+
+	    Araba a1;
+		a1.setHiz(50);
+		a1.hizlan(10);
+		a1.hizlan();
+		cout<<a1.getHiz()<<endl;
+		cout<<a1.sureHesapla(265);
+
+		for (int a = 0; a < 100; ++ a) {
+			Beep(329,300); //E
+			Beep(493,300); //B
+			Beep(698,300); //F^
+			Beep(659,600); //E^
+
+			Beep(783,300); //G^
+			Beep(698,300); //F^
+			Beep(659,600); //E^
+
+			Beep(329,100);
+			Beep(493,300);
+			Beep(698,300);
+			Beep(659,600);
+
+			Beep(392,250);
+			Beep(440,200);
+			Beep(587,300);
+
+			Beep(349,250);
+			Beep(587,500);
+
+			Beep(329,300);
+			Beep(493,300);
+
+		}
+	return 0;
+}

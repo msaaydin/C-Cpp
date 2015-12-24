@@ -1,0 +1,22 @@
+//============================================================================
+// Name        : CppLab13.cpp
+// Author      : M.A.
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include "Araba.h"
+using namespace std;
+
+int main() {
+
+	    Araba a1;
+		a1.setHiz(50);
+		a1.hizlan(10);
+		a1.hizlan();
+		cout<<a1.getHiz()<<endl;
+		cout<<a1.sureHesapla(265);
+	return 0;
+}

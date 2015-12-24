@@ -1,0 +1,17 @@
+/*
+ * Araba.h
+ *
+ *  Created on: 24 Ara 2015
+ *      Author: rivendell
+ */
+
+#ifndef ARABA_H_
+#define ARABA_H_
+
+class Araba {
+public:
+	Araba();
+	virtual ~Araba();
+};
+
+#endif /* ARABA_H_ */

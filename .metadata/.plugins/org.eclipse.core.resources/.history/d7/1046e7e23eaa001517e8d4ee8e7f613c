@@ -1,0 +1,18 @@
+/*
+ * Araba.cpp
+ *
+ *  Created on: 24 Ara 2015
+ *      Author: rivendell
+ */
+
+#include "Araba.h"
+
+Araba::Araba() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Araba::~Araba() {
+	// TODO Auto-generated destructor stub
+}
+
