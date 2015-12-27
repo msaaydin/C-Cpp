@@ -1,0 +1,7 @@
+02:30:55 **** Incremental Build of configuration Debug for project StringPermutation ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\StringPermutation.o" "..\\src\\StringPermutation.cpp" 
+g++ -o StringPermutation "src\\StringPermutation.o" 
+
+02:32:24 Build Finished (took 1m:29s.654ms)
+
