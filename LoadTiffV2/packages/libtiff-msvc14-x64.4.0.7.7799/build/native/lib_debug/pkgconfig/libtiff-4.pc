@@ -1,0 +1,11 @@
+prefix=D:/GIT/libtiff/build-nuget
+exec_prefix=D:/GIT/libtiff/build-nuget
+libdir=D:/GIT/libtiff/build-nuget/lib
+includedir=D:/GIT/libtiff/build-nuget/include
+
+Name: libtiff
+Description:  Tag Image File Format (TIFF) library.
+Version: 4.0.7
+Libs: -LD:/GIT/libtiff/build-nuget/lib -ltiff
+Libs.private: 
+Cflags: -ID:/GIT/libtiff/build-nuget/include
