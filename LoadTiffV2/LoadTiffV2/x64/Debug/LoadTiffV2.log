@@ -1,2 +1,3 @@
 ﻿  main.cpp
-  LoadTiffV2.vcxproj -> C:\Users\msa\documents\visual studio 2015\Projects\LoadTiffV2\x64\Debug\LoadTiffV2.exe
+c:\users\msa\documents\github\c-cpp\loadtiffv2\loadtiffv2\main.cpp(56): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  LoadTiffV2.vcxproj -> C:\Users\msa\Documents\GitHub\C-Cpp\LoadTiffV2\x64\Debug\LoadTiffV2.exe
