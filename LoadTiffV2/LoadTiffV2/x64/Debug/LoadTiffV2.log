@@ -1,3 +1,4 @@
 ﻿  main.cpp
-c:\users\msa\documents\github\c-cpp\loadtiffv2\loadtiffv2\main.cpp(56): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  LoadTiffV2.vcxproj -> C:\Users\msa\Documents\GitHub\C-Cpp\LoadTiffV2\x64\Debug\LoadTiffV2.exe
+c:\users\msa\documents\github\c-cpp\loadtiffv2\loadtiffv2\main.cpp(42): error C2371: 'image2': redefinition; different basic types
+  c:\users\msa\documents\github\c-cpp\loadtiffv2\loadtiffv2\main.cpp(40): note: see declaration of 'image2'
+c:\users\msa\documents\github\c-cpp\loadtiffv2\loadtiffv2\main.cpp(63): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
